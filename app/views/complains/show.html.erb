@@ -4,14 +4,18 @@
 </div>
 
 <dl class="dl-horizontal">
-  <dt><strong><%= model_class.human_attribute_name(:latitude) %>:</strong></dt>
-  <dd><%= @complain.latitude %></dd>
-  <dt><strong><%= model_class.human_attribute_name(:longitude) %>:</strong></dt>
-  <dd><%= @complain.longitude %></dd>
   <dt><strong><%= model_class.human_attribute_name(:title) %>:</strong></dt>
   <dd><%= @complain.title %></dd>
   <dt><strong><%= model_class.human_attribute_name(:Description) %>:</strong></dt>
   <dd><%= @complain.Description %></dd>
+  <dt><strong><%= model_class.human_attribute_name(:latitude) %>:</strong></dt>
+  <dd><%= @complain.latitude %></dd>
+  <dt><strong><%= model_class.human_attribute_name(:longitude) %>:</strong></dt>
+  <dd><%= @complain.longitude %></dd>
+  <dt><strong><%= model_class.human_attribute_name(:ip_address) %>:</strong></dt>
+  <dd><%= @complain.ip_address %></dd>
+  <dt><strong><%= model_class.human_attribute_name(:location) %>:</strong></dt>
+  <dd><%= @complain.location %></dd>
 </dl>
 
 <%= link_to t('.back', :default => t("helpers.links.back")),
