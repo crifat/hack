@@ -1,0 +1,24 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Latitude:</strong>
+  <%= @complain.latitude %>
+</p>
+
+<p>
+  <strong>Longitude:</strong>
+  <%= @complain.longitude %>
+</p>
+
+<p>
+  <strong>Title:</strong>
+  <%= @complain.title %>
+</p>
+
+<p>
+  <strong>Description:</strong>
+  <%= @complain.Description %>
+</p>
+
+<%= link_to 'Edit', edit_complain_path(@complain) %> |
+<%= link_to 'Back', complains_path %>
