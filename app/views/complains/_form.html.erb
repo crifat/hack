@@ -15,20 +15,7 @@
     </div>
   <% end %>
 
-  <div class="control-group">
-    <%= f.label :latitude, :class => 'control-label' %>
-    <div class="controls">
-      <%= f.text_field :latitude, :class => 'form-control' %>
-    </div>
-    <%= error_span(@complain[:latitude]) %>
-  </div>
-  <div class="control-group">
-    <%= f.label :longitude, :class => 'control-label' %>
-    <div class="controls">
-      <%= f.text_field :longitude, :class => 'form-control' %>
-    </div>
-    <%= error_span(@complain[:longitude]) %>
-  </div>
+
   <div class="control-group">
     <%= f.label :title, :class => 'control-label' %>
     <div class="controls">
@@ -43,6 +30,14 @@
     </div>
     <%= error_span(@complain[:Description]) %>
   </div>
+    <div class="control-group">
+      <%= f.label :ip_address, :class => 'control-label' %>
+      <div class="controls">
+        <%= f.text_field :ip_address, :class => 'form-control', disabled: :disabled, value: request.remote_ip %>
+      </div>
+      <%= error_span(@complain[:ip_address]) %>
+    </div>
+
 
 
   <%= f.submit nil, :class => 'btn btn-primary' %>
