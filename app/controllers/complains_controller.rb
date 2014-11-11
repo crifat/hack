@@ -69,6 +69,6 @@ class ComplainsController < ApplicationController
 
     # Never trust parameters from the scary internet, only allow the white list through.
     def complain_params
-      params.require(:complain).permit(:latitude, :longitude, :title, :Description)
+      params.require(:complain).permit(:latitude, :longitude, :title, :Description, :ip_address)
     end
 end

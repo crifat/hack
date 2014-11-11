@@ -33,7 +33,7 @@
     <div class="control-group">
       <%= f.label :ip_address, :class => 'control-label' %>
       <div class="controls">
-        <%= f.text_field :ip_address, :class => 'form-control', disabled: :disabled, value: request.remote_ip %>
+        <%= f.text_field :ip_address, :class => 'form-control', value: request.remote_ip %>
       </div>
       <%= error_span(@complain[:ip_address]) %>
     </div>
