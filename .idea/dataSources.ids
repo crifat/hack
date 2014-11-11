@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component name="dataSourceStorage">
+  <data-source source="LOCAL" name="Rails hackathon: development" uuid="04cc5461-4148-4944-a50f-0cc8d41b79b6">
+    <database-info product="" version="" jdbc-version="" driver-name="" driver-version=""/>
+  </data-source>
+  <data-source source="LOCAL" name="Rails hackathon: test" uuid="7ec7deac-7e18-4f8e-954a-a45c098dfd35">
+    <database-info product="" version="" jdbc-version="" driver-name="" driver-version=""/>
+  </data-source>
+  <data-source source="LOCAL" name="Rails hackathon: production" uuid="34fe410d-ee18-416f-b1ab-91660e5dc4be">
+    <database-info product="" version="" jdbc-version="" driver-name="" driver-version=""/>
+  </data-source>
+</component>

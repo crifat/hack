@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DataSourceManagerImpl" format="xml" hash="4089382136">
+    <data-source source="LOCAL" name="Rails hackathon: development" uuid="04cc5461-4148-4944-a50f-0cc8d41b79b6">
+      <driver-ref>postgresql</driver-ref>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql:hackathon_development</jdbc-url>
+      <user-name>nigh7m4r3</user-name>
+      <user-password>df9bdf98df99df9e</user-password>
+      <libraries />
+    </data-source>
+    <data-source source="LOCAL" name="Rails hackathon: test" uuid="7ec7deac-7e18-4f8e-954a-a45c098dfd35">
+      <driver-ref>postgresql</driver-ref>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql:hackathon_test</jdbc-url>
+      <user-name>nigh7m4r3</user-name>
+      <user-password>df9bdf98df99df9e</user-password>
+      <libraries />
+    </data-source>
+    <data-source source="LOCAL" name="Rails hackathon: production" uuid="34fe410d-ee18-416f-b1ab-91660e5dc4be">
+      <driver-ref>postgresql</driver-ref>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql:hackathon_production</jdbc-url>
+      <user-name>hackathon</user-name>
+      <user-password>df96df8fdf97df8adfefdfe4dffcdff1df8ddfe2dfebdfe9dfe1dfebdffedfe2dfe5dfe4dff5dfeedfebdffedfebdfe8dfebdff9dfefdff5dffadfebdff9dff9dffddfe5dff8dfeedf8ddff7df8adf8fdf94</user-password>
+      <libraries />
+    </data-source>
+  </component>
+</project>
+
