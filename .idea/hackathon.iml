@@ -220,6 +220,9 @@
     <orderEntry type="library" scope="PROVIDED" name="erubis (v2.7.0, rbenv: 2.0.0-p576) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="execjs (v2.2.2, rbenv: 2.0.0-p576) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="geocoder (v1.2.5, rbenv: 2.0.0-p576) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="geokit (v1.9.0, rbenv: 2.0.0-p576) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="geokit-rails (v2.0.1, rbenv: 2.0.0-p576) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="gmaps4rails (v2.1.2, rbenv: 2.0.0-p576) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="hike (v1.2.3, rbenv: 2.0.0-p576) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="i18n (v0.6.11, rbenv: 2.0.0-p576) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="jbuilder (v2.2.4, rbenv: 2.0.0-p576) [gem]" level="application" />
@@ -234,6 +237,7 @@
     <orderEntry type="library" scope="PROVIDED" name="multi_json (v1.10.1, rbenv: 2.0.0-p576) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="pg (v0.17.1, rbenv: 2.0.0-p576) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="rack (v1.5.2, rbenv: 2.0.0-p576) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="rack-cors (v0.2.9, rbenv: 2.0.0-p576) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="rack-test (v0.6.2, rbenv: 2.0.0-p576) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="rails (v4.1.6, rbenv: 2.0.0-p576) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="rails_12factor (v0.0.3, rbenv: 2.0.0-p576) [gem]" level="application" />

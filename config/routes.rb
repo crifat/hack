@@ -1,4 +1,7 @@
 Rails.application.routes.draw do
+
+
+  match 'complains', to: 'complains#index', via: [:options]
   resources :complains
 
   root 'complains#index'

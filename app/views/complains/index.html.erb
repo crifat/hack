@@ -5,7 +5,6 @@
 <table class="table table-striped">
   <thead>
     <tr>
-      <th><%= model_class.human_attribute_name(:id) %></th>
       <th><%= model_class.human_attribute_name(:title) %></th>
       <th><%= model_class.human_attribute_name(:Description) %></th>
       <th><%= model_class.human_attribute_name(:ip_address) %></th>
@@ -18,8 +17,7 @@
   <tbody>
     <% @complains.each do |complain| %>
       <tr>
-        <td><%= link_to complain.id, complain_path(complain) %></td>
-        <td><%= complain.title %></td>
+        <td><%= link_to complain.title, complain_path(complain) %></td>
         <td><%= complain.Description %></td>
         <td><%= complain.ip_address %></td>
         <td><%= complain.latitude %></td>
@@ -39,6 +37,28 @@
   </tbody>
 </table>
 
+<div class="bootcards-list">
+  <div class="panel panel-default">
+    <div class="list-group">
+      <% @complains.each do |complain| %>
+          <div class="panel panel-info">
+            <div class="panel-heading">
+              <h3 class="panel-title"><%= complain.title %></h3>
+              <p><%= complain.ip_address %></p>
+            </div>
+            <div class="panel-body">
+              <p><%= complain.Description %></p>
+            </div>
+          </div>
+      <% end %>
+    </div>
+    <!--list-group-->
+  </div>
+  <!--panel panel-default-->
+</div>
+<!--bootcard-list-->
+
 <%= link_to t('.new', :default => t("helpers.links.new")),
             new_complain_path,
             :class => 'btn btn-primary' %>
+
