@@ -1,6 +1,7 @@
 Rails.application.routes.draw do
 
   match 'toilets', to: 'toilets#index', via: [:options]
+  match 'toilets', to: 'toilets#create', via: [:options]
   match 'complains', to: 'complains#index', via: [:options]
   resources :toilets
 

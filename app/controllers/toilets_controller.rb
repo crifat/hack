@@ -27,7 +27,7 @@ class ToiletsController < ApplicationController
   # GET /toilets.json
   def index
     if params[:longitude].present? and params[:latitude].present?
-      @toilets = Toilet.near(["Dhaka - Mymensingh Highway, Dhaka 1230, Bangladesh"], 20)
+      #@toilets = Toilet.near(["Dhaka - Mymensingh Highway, Dhaka 1230, Bangladesh"], 20)
     else
       @toilets = Toilet.all
     end
